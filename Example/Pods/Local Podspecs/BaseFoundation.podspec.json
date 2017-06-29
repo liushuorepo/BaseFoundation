@@ -1,9 +1,9 @@
 {
   "name": "BaseFoundation",
-  "version": "0.1.0",
-  "summary": "A short description of BaseFoundation.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/13124832031@163.com/BaseFoundation",
+  "version": "0.1.1",
+  "summary": "This is a BaseFoundation.",
+  "description": "This is a BaseFoundation base on Objective-C.",
+  "homepage": "https://github.com/liushuorepo/BaseFoundation.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,17 @@
     "13124832031@163.com": "liushuo@alaxiaoyou.com"
   },
   "source": {
-    "git": "https://github.com/13124832031@163.com/BaseFoundation.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/liushuorepo/BaseFoundation.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "BaseFoundation/Classes/**/*"
+  "source_files": "BaseFoundation/Classes/**/*",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "Masonry": [
+      "~> 1.0.2"
+    ]
+  }
 }
