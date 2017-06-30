@@ -1,0 +1,17 @@
+//
+//  NotificationConstant.m
+//  alaxiaoyou
+//
+//  Created by Andy on 2016/12/29.
+//  Copyright © 2016年 Andy. All rights reserved.
+//
+
+#import "NotificationConstant.h"
+
+//社区
+NSString *const kNOTIFICATION_REFRESH_COMMUNITY_POSTLIST = @"kNOTIFICATION_REFRESH_COMMUNITY_POSTLIST";
+NSString *const kNOTIFICATION_REFRESH_COMMENT_REPLAYCOUNT = @"kNOTIFICATION_REFRESH_COMMENT_REPLAYCOUNT";
+//专家
+NSString *const kNOTIFICATION_REFRESH_QUESTIONLIST = @"kNOTIFICATION_REFRESH_QUESTIONLIST";
+//登录状态改变
+NSString *const kNOTIFICATION_LOGINSTATUSCHANGE = @"kNOTIFICATION_LOGINSTATUSCHANGE";
